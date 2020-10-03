@@ -1,7 +1,7 @@
 # ATtiny406_Board
 PCB Design Files for ATtiny406 Board
 
-This board design is a variant of a board design that it is found in this blog.
+This board design is a variant of a board design that is found in this blog.
 
 https://www.omzlo.com/articles/baremetal-programming-on-the-tinyavr-0-micro-controllers
 

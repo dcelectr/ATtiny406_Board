@@ -11,7 +11,10 @@
 
   (page USLetter)
   (title_block
-    (title "Project Title")
+    (title "ATtiny406 Board")
+    (date 2020-10-02)
+    (rev 0)
+    (company "DC Electronics")
   )
 
   (layers
@@ -72,7 +75,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFDF7D)
     (pcbplotparams
-      (layerselection 0x310fc_80000001)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -1566,7 +1569,7 @@
   (segment (start 147.559 87.869) (end 147.559 91.44) (width 0.508) (layer B.Cu) (net 25))
   (segment (start 144.78 85.09) (end 147.559 87.869) (width 0.508) (layer B.Cu) (net 25))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5FA22AA8) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5F789FAF) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.2032)
     (fill yes (arc_segments 16) (thermal_gap 0.254) (thermal_bridge_width 0.254))
@@ -1903,7 +1906,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5FA22AA5) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5F789FAC) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.2032)
     (fill yes (arc_segments 16) (thermal_gap 0.254) (thermal_bridge_width 0.254))

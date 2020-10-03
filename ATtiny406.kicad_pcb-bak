@@ -11,7 +11,10 @@
 
   (page USLetter)
   (title_block
-    (title "Project Title")
+    (title "ATtiny406 Board")
+    (date 2020-10-02)
+    (rev 0)
+    (company "DC Electronics")
   )
 
   (layers
@@ -22,7 +25,7 @@
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user hide)
+    (39 F.Mask user)
     (40 Dwgs.User user hide)
     (44 Edge.Cuts user)
     (46 B.CrtYd user hide)

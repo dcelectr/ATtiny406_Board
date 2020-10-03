@@ -11,6 +11,8 @@ The programming connector is a standard FTDI USB-UART adapter pin-out. Since mos
 
 The board file ATtiny406.kicad_pcb uploads with no issues at the OSHPARK website. 
 
+https://oshpark.com/shared_projects/t4PIEqBx
+
 The Bill of Materials is also included (see file ATtiny406BOM.csv).
 
 ![Image](https://github.com/DCelectronics/ATtiny406_Board/blob/main/AT406BRD_Front.png)

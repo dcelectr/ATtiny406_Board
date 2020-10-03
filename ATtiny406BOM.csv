@@ -1,0 +1,12 @@
+Reference, Quantity, Value, Footprint, Datasheet, P/N
+C1 ,1,"0.1uF","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","CC0805KRX7R7BB104"
+C2 ,1,"2.2uF","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","CL21B225KOFNNNE"
+D1 ,1,"YEL","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","150080YS75000"
+D2 ,1,"GRE","LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","150080VS75000"
+J1 ,1,"Conn_01x06_Male","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","~","PH1-06-UA"
+J2 J3 ,2,"Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","~","PH1-10-UA"
+JP1 ,1,"Jumper_2_Open","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","~","N/A"
+R1 R2 R4 ,3,"1K","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","ERJ-6GEYJ102V"
+R3 ,1,"4K7","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","ERJ-6GEYJ472V"
+SW1 ,1,"SW_Push","Button_Switch_SMD:SW_SPST_B3U-1000P","~","B3U-1000P"
+U1 ,1,"ATtiny406-S","Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/Microchip%208bit%20mcu%20AVR%20ATtiny406%20data%20sheet%2040001976A.pdf","ATTINY406-SFR"

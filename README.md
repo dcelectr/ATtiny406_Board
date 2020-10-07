@@ -18,3 +18,11 @@ The Bill of Materials is also included (see file ATtiny406BOM.csv).
 ![Image](https://github.com/DCelectronics/ATtiny406_Board/blob/main/AT406BRD_Front.png)
 
 ![Image](https://github.com/DCelectronics/ATtiny406_Board/blob/main/AT406BRD_Back.png)
+
+## To Do:
+
+- Examine if resistance of 4k7 Ohms works reliably for programming the Attiny406 over the range of Vcc, from 5V to 1V8.
+
+- Test programming with updiprog https://github.com/Polarisru/updiprog (which is written in C) instead of using pyupdi.
+
+

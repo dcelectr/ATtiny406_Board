@@ -9,20 +9,14 @@ The board features fairly easy to hand solder components, such as a SOIC20 IC an
 
 The programming connector is a standard FTDI USB-UART adapter pin-out. Since most FTDI USB-UART cables have different voltage for the Vcc and Vttl (such as the TTL-232R-3V3), a solder jumper (JP1) is open by default. The board can be powered from the breadboard pin headers or the FTDI programming header if the the jumper JP1 is closed. Using an FTDI TTL-232RG-VIP USB-UART requires the jumper JP1 to be closed so that the TTL-232RG-VIP adapter TTL voltage (Vttl) would be the same as the Vcc.
 
-The board file ATtiny406.kicad_pcb is also shared at the OSHPARK website. 
-
-https://oshpark.com/shared_projects/00tt8s2l
-
 The Bill of Materials is also included (see file ATtiny406BOM.csv).
 
 ![Image](https://github.com/DCelectronics/ATtiny406_Board/blob/main/AT406BRD_Front.png)
 
 ![Image](https://github.com/DCelectronics/ATtiny406_Board/blob/main/AT406BRD_Back.png)
 
-## To Do:
+Resistance of 4k7 Ohms works reliably for programming the Attiny406 over the range of Vcc, from 5V to 3V3.
 
-- Examine if resistance of 4k7 Ohms works reliably for programming the Attiny406 over the range of Vcc, from 5V to 1V8.
-
-- Test programming with updiprog https://github.com/Polarisru/updiprog (which is written in C) instead of using pyupdi.
+Programming was tested on Linux with updiprog https://github.com/DCelectronics/updiprog (which is written in C) instead of using pyupdi.
 
 

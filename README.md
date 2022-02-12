@@ -11,9 +11,9 @@ The programming connector is a standard FTDI USB-UART adapter pin-out. Since mos
 
 The Bill of Materials is also included (see file ATtiny406BOM.csv).
 
-![Image](https://github.com/DCelectronics/ATtiny406_Board/blob/main/AT406BRD_Front.png)
+![Image](https://github.com/dcelectr/ATtiny406_Board/blob/master/AT406BRD_Front.png)
 
-![Image](https://github.com/DCelectronics/ATtiny406_Board/blob/main/AT406BRD_Back.png)
+![Image](https://github.com/dcelectr/ATtiny406_Board/blob/master/AT406BRD_Back.png)
 
 Resistance of 4k7 Ohms works reliably for programming the Attiny406 over the range of Vcc, from 5V to 3V3.
 
